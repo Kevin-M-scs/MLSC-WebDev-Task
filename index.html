@@ -20,6 +20,7 @@
 
     <!-- Created a div for all 5 Questions-->
     <div id="questions" class="questions_body">
+
         <form id="q1" style="display:none;">
             <input type="radio" id="option1" name="input1" value="dennis ritchie">
             <label for="option1">dennis ritchie</label>
@@ -35,21 +36,60 @@
             <label for="input1" id="status1" style="display:none;"></label>
             <hr>
         </form>
+            <input type="radio" id="option1" name="input1" value="dennis ritchie">
+        <label for="option1">Dennis Ritchie</label>
+        <br>
+        <input type="radio" id="option2" name="input1" value="i dont know">
+        <label for="option2">Timothee Chalamet</label>
+        <br>
+        <input type="radio" id="option3" name="input1" value="value">
+        <label for="option3">Abraham Lincoln</label>
+        <br>
+        <input type="radio" id="option4" name="input1" value="NEXT QUESTION PLEASE">
+        <label for="option4">NEXT QUESTION PLEASE</label>
+        <br>
+        <button type="button" onclick="check(1)">Submit</button>
+        <br>
+        <label for="input1" id="status1" style="display:none;"></label>
+        <hr>
+    </form>
+
 
         <form id="q2" style="display:none;">
             <label for="input2">Do you love recursion?</label>
             <br>
-            <input type="text" id="input2" name="input2">
+            <input type="radio" id="option1" name="input2" value="NOOOO">
+            <label for="option1">NOOOO</label>
+            <br>
+            <input type="radio" id="option2" name="input2" value="mehh">
+            <label for="option2">mehh</label>
+            <br>
+            <input type="radio" id="option3" name="input2" value="yes ofc duh">
+            <label for="option3">yes ofc duh</label>
+            <br>
+            <input type="radio" id="option4" name="input2" value="this question is stupid">
+            <label for="option4">this question is stupid</label>
+            <br>
             <button type="button" onclick="check(2)">Submit</button>
             <br>
             <label for="input2" id="status2" style="display:none;"></label>
-            <hr>
+        <hr>
         </form>
 
         <form id="q3" style="display:none;">
             <label for="input3">Fastest car in the world?</label>
             <br>
-            <input type="text" id="input3" name="input3">
+            <input type="radio" id="option1" name="input3" value="LAMBOOO">
+            <label for="option1">LAMBOOO</label>
+            <br>
+            <input type="radio" id="option2" name="input3" value="alto">
+            <label for="option2">alto</label>
+            <input type="radio" id="option3" name="input3" value="the one i have at home">
+            <label for="option3">the one i have at home</label>
+            <br>
+            <input type="radio" id="option4" name="input3" value="some racecar maybe???">
+            <label for="option4">some racecar maybe???</label>
+            <br>
             <button type="button" onclick="check(3)">Submit</button>
             <br>
             <label for="input3" id="status3" style="display:none;"></label>
@@ -59,7 +99,18 @@
         <form id="q4" style="display:none;">
             <label for="input4">Derivative of sinx?</label>
             <br>
-            <input type="text" id="input4" name="input4">
+            <input type="radio" id="option1"  name="input4" value="secx">
+            <label for="option1">secx</label>
+            <br>
+            <input type="radio" id="option2"  name="input4" value="cosx">
+            <label for="option2">cosx</label>
+            <br>
+            <input type="radio" id="option3"  name="input4" value="tanx">
+            <label for="option3">tanx</label>
+            <br>
+            <input type="radio" id="option4"  name="input4" value="I don't really know">
+            <label for="option4">I don't really know</label>
+            <br>
             <button type="button" onclick="check(4)">Submit</button>
             <br>
             <label for="input4" id="status4" style="display:none;"></label>
@@ -69,7 +120,17 @@
         <form id="q5" style="display:none;">
             <label for="input5">Which college are you studying in?</label>
             <br>
-            <input type="text" id="input5" name="input5">
+            <input type="radio" id="option1" name="input5" value="iit">
+            <label for="option1">iit</label>
+            <br>
+            <input type="radio" id="option2" name="input5" value="lpu">
+            <label for="option2">lpu</label>
+            <br>
+            <input type="radio" id="option3" name="input5" value="please don't make me say it">
+            <label for="option3">please don't make me say it</label>
+            <br>
+            <input type="radio" id="option4" name="input5" value="Thapar">
+            <label for="option4">Thapar</label>
             <button type="button" onclick="check(5)">Submit</button>
             <br>
             <label for="input5" id="status5" style="display:none;"></label>
