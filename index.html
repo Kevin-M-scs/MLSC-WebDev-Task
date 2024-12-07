@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Learning JS</title>
+</head>
+<body>
+    <h1>Welcome to the world of JS</h1>
+    <div id="firstcontainer" class="container">hey there</div>
+    <br>
+
+    <!-- Used from tag for accepting username-->
+    <form id="nameinput">
+        <label for="username">Please enter your name:</label>
+        <input type="text" id="username" name="username">
+        <button type="button" onclick="welcome()">Submit</button>
+        <br>   
+    </form>
+
+    <!-- Created a div for all 5 Questions-->
+    <div id="questions" class="questions_body">
+        <form id="q1" style="display:none;">
+            <label for="input1">Who is the founder of C language?</label>
+            <br>
+            <input type="text" id="input1" name="input1">
+            <button type="button" onclick="check(1)">Submit</button>
+            <br>
+            <label for="input1" id="status1" style="display:none;"></label>
+            <hr>
+        </form>
+
+        <form id="q2" style="display:none;">
+            <label for="input2">Do you love recursion?</label>
+            <br>
+            <input type="text" id="input2" name="input2">
+            <button type="button" onclick="check(2)">Submit</button>
+            <br>
+            <label for="input2" id="status2" style="display:none;"></label>
+            <hr>
+        </form>
+
+        <form id="q3" style="display:none;">
+            <label for="input3">Fastest car in the world?</label>
+            <br>
+            <input type="text" id="input3" name="input3">
+            <button type="button" onclick="check(3)">Submit</button>
+            <br>
+            <label for="input3" id="status3" style="display:none;"></label>
+            <hr>
+        </form>
+
+        <form id="q4" style="display:none;">
+            <label for="input4">Derivative of sinx?</label>
+            <br>
+            <input type="text" id="input4" name="input4">
+            <button type="button" onclick="check(4)">Submit</button>
+            <br>
+            <label for="input4" id="status4" style="display:none;"></label>
+            <hr>
+        </form>
+
+        <form id="q5" style="display:none;">
+            <label for="input5">Which college are you studying in?</label>
+            <br>
+            <input type="text" id="input5" name="input5">
+            <button type="button" onclick="check(5)">Submit</button>
+            <br>
+            <label for="input5" id="status5" style="display:none;"></label>
+            <hr>
+        </form>  
+    </div>
+
+    <div id="results" class="question_results"></div>
+    
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</body>
+</html>
