@@ -33,14 +33,21 @@ function display(n){
 
 function check(n){
     if(n==1){
-        var q=document.getElementById("input1");
+        const q=document.getElementsByName('input1');
         var s1=document.getElementById("status1");
-        if(q.value=="DR"){
-            s1.textContent="Status:Correct";
-            s1.style.display='block';
-            num++;
+        var flag=0;
+        for(let i=0;i<q.length;i++){
+            if(q[i].checked){
+                if (q[i].value=="DR"){
+                    flag=1;
+                    s1.textContent="Status:Correct";
+                    s1.style.display='block';
+                    num++;
+                    break;
+                }
+            }
         }
-        else{
+        if(flag==0){
             s1.textContent="Status:Incorrect";
             s1.style.display='block';
         }
