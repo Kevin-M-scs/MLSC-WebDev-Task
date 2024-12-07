@@ -16,7 +16,6 @@ function display(n){
     /*this function makes the next question visible
     and handles the last case*/
     if(n!=5){
-        console.log("hello");
         var next="q"+String(n+1);
         var q=document.getElementById(next);
         q.style.display='block';
