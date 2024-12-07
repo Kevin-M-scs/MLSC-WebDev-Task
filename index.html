@@ -21,9 +21,15 @@
     <!-- Created a div for all 5 Questions-->
     <div id="questions" class="questions_body">
         <form id="q1" style="display:none;">
-            <label for="input1">Who is the founder of C language?</label>
+            <input type="radio" id="option1" name="input1" value="dennis ritchie">
+            <label for="option1">dennis ritchie</label>
             <br>
-            <input type="text" id="input1" name="input1">
+            <input type="radio" id="option2" name="input1" value="i dont know">
+            <label for="option2">i dont know</label>
+            <br>
+            <input type="radio" id="option3" name="input1" value="value">
+            <label for="option3">modi</label>
+            <br>
             <button type="button" onclick="check(1)">Submit</button>
             <br>
             <label for="input1" id="status1" style="display:none;"></label>
