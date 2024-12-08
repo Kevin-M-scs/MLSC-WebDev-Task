@@ -1,0 +1,455 @@
+body{   
+    background: url(vecteezy_abstract-gradient-purple-blue-liquid-wave-background_23864648.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    display: none;
+}
+
+.heading{
+    font-family: Archivo;
+    
+    font-size: 50px;
+    margin-top: 10px;
+    color: rgb(192, 219, 242);
+    
+}
+
+
+#nameinput {
+    width: 300px; 
+    margin: 20px auto; 
+    padding-left: 15px; 
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid #6c63ff; 
+    border-radius: 10px; 
+    background-color: transparent; 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+#nameinput label {
+    font-family: Roboto; 
+    font-size: 20px; 
+    font-weight: bold;
+    color:  rgb(192, 219, 242); 
+    margin-bottom: 8px; 
+    display: block;
+}
+
+
+#nameinput input[type="text"] {
+    width: 100%; 
+    padding-left: 6px; 
+    padding-right: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 15px; 
+    box-sizing: border-box; 
+    margin-bottom: 15px; 
+    font-size: 14px; 
+    outline: rgb(192, 219, 242);
+}
+
+
+#nameinput button {
+    background-color: #726bee; 
+    color: rgb(192, 219, 242); 
+    font-size: 16px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none; 
+    border-radius: 5px; 
+    margin-bottom: 5px;
+   
+}
+
+
+#nameinput button:hover {
+    background-color: #5348c5; 
+    cursor: pointer;    
+}
+
+
+#nameinput {
+    text-align: center;
+}
+
+.container{
+    color: rgb(192, 219, 242);
+}
+
+
+#q1 {
+    width: 400px; 
+    margin: 20px auto; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #6c63ff; 
+    border-radius: 10px; 
+    background-color: transparent; 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+    text-align: left; 
+}
+
+
+#q1 label[for="input1"] {
+    font-family: Roboto; 
+    font-size: 18px; 
+    color:  rgb(192, 219, 242); 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    display: block; 
+}
+
+
+#q1 input[type="radio"] {
+    margin-right: 10px; 
+    accent-color: #8d70d2;
+}
+
+
+#q1 label {
+    font-family: Roboto; 
+    font-size: 16px; 
+    color: rgb(192, 219, 242); 
+    margin-bottom: 8px; 
+    
+}
+
+
+#q1 button {
+    background-color:#6c63ff; 
+    color: rgb(192, 219, 242); 
+    font-size: 16px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none; 
+    border-radius: 5px; 
+     
+    transition: background-color 0.15s; 
+    display: block; 
+    margin: 15px auto 0; 
+}
+
+
+#q1 button:hover {
+    background-color:  #5348c5; 
+    cursor: pointer;
+}
+
+
+#q1 #status1 {
+    font-family: Roboto; 
+    font-size: 14px; 
+    color: rgb(192, 219, 242); 
+    margin-top: 10px; 
+    
+}
+
+
+
+#q2 {
+    width: 400px; 
+    margin: 20px auto; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #6c63ff; 
+    border-radius: 10px; 
+    background-color: transparent; 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+    text-align: left; 
+}
+
+
+#q2 label[for="input2"] {
+    font-family: Roboto; 
+    font-size: 18px; 
+    color:  rgb(192, 219, 242); 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    display: block; 
+}
+
+
+#q2 input[type="radio"] {
+    margin-right: 10px; 
+    accent-color: #8d70d2;
+}
+
+
+#q2 label {
+    font-family: Roboto; 
+    font-size: 16px; 
+    color: rgb(192, 219, 242); 
+    margin-bottom: 8px; 
+    
+}
+
+
+#q2 button {
+    background-color:#6c63ff; 
+    color: rgb(192, 219, 242); 
+    font-size: 16px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none; 
+    border-radius: 5px; 
+     
+    transition: background-color 0.15s; 
+    display: block; 
+    margin: 15px auto 0; 
+}
+
+
+#q2 button:hover {
+    background-color:  #5348c5; 
+    cursor: pointer;
+}
+
+
+#q2 #status2 {
+    font-family: Roboto; 
+    font-size: 14px; 
+    color: rgb(192, 219, 242); 
+    margin-top: 10px; 
+    
+}
+
+#q3 {
+    width: 400px; 
+    margin: 20px auto; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #6c63ff; 
+    border-radius: 10px; 
+    background-color: transparent; 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+    text-align: left; 
+}
+
+
+#q3 label[for="input3"] {
+    font-family: Roboto; 
+    font-size: 18px; 
+    color:  rgb(192, 219, 242); 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    display: block; 
+}
+
+
+#q3 input[type="radio"] {
+    margin-right: 10px; 
+    accent-color: #8d70d2;
+}
+
+
+#q3 label {
+    font-family: Roboto; 
+    font-size: 16px; 
+    color: rgb(192, 219, 242); 
+    margin-bottom: 8px; 
+    
+}
+
+
+#q3 button {
+    background-color:#6c63ff; 
+    color: rgb(192, 219, 242); 
+    font-size: 16px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none; 
+    border-radius: 5px; 
+     
+    transition: background-color 0.15s; 
+    display: block; 
+    margin: 15px auto 0; 
+}
+
+
+#q3 button:hover {
+    background-color:  #5348c5; 
+    cursor: pointer;
+}
+
+
+#q3 #status3 {
+    font-family: Roboto; 
+    font-size: 14px; 
+    color: rgb(192, 219, 242); 
+    margin-top: 10px; 
+    
+}
+
+#q4 {
+    width: 400px; 
+    margin: 20px auto; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #6c63ff; 
+    border-radius: 10px; 
+    background-color: transparent; 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+    text-align: left; 
+}
+
+
+#q4 label[for="input4"] {
+    font-family: Roboto; 
+    font-size: 18px; 
+    color:  rgb(192, 219, 242); 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    display: block; 
+}
+
+
+#q4 input[type="radio"] {
+    margin-right: 10px; 
+    accent-color: #8d70d2;
+}
+
+
+#q4 label {
+    font-family: Roboto; 
+    font-size: 16px; 
+    color: rgb(192, 219, 242); 
+    margin-bottom: 8px; 
+    
+}
+
+
+#q4 button {
+    background-color:#6c63ff; 
+    color: rgb(192, 219, 242); 
+    font-size: 16px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none; 
+    border-radius: 5px; 
+     
+    transition: background-color 0.15s; 
+    display: block; 
+    margin: 15px auto 0; 
+}
+
+
+#q4 button:hover {
+    background-color:  #5348c5; 
+    cursor: pointer;
+}
+
+
+#q4 #status4 {
+    font-family: Roboto; 
+    font-size: 14px; 
+    color: rgb(192, 219, 242); 
+    margin-top: 10px; 
+    
+}
+
+#q5 {
+    width: 400px; 
+    margin: 20px auto; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #6c63ff; 
+    border-radius: 10px; 
+    background-color: transparent; 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+    text-align: left; 
+}
+
+
+#q5 label[for="input5"] {
+    font-family: Roboto; 
+    font-size: 18px; 
+    color:  rgb(192, 219, 242); 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    display: block; 
+}
+
+
+#q5 input[type="radio"] {
+    margin-right: 10px; 
+    accent-color: #8d70d2;
+}
+
+
+#q5 label {
+    font-family: Roboto; 
+    font-size: 16px; 
+    color: rgb(192, 219, 242); 
+    margin-bottom: 8px; 
+    
+}
+
+
+#q5 button {
+    background-color:#6c63ff; 
+    color: rgb(192, 219, 242); 
+    font-size: 16px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none; 
+    border-radius: 5px; 
+     
+    transition: background-color 0.15s; 
+    display: block; 
+    margin: 15px auto 0; 
+}
+
+
+#q5 button:hover {
+    background-color:  #5348c5; 
+    cursor: pointer;
+}
+
+
+#q5 #status5 {
+    font-family: Roboto; 
+    font-size: 14px; 
+    color: rgb(192, 219, 242); 
+    margin-top: 10px; 
+    
+}
+
+
+

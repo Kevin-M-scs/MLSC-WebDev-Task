@@ -5,6 +5,8 @@ function welcome(){
     var name=document.getElementById("username").value;
     if(name!=null){
         const l1=document.createElement('label');
+
+        
         l1.textContent="Welcome "+name;
         document.getElementById('nameinput').appendChild(l1);
         var q=document.getElementById("q1");
