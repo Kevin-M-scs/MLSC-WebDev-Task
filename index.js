@@ -38,7 +38,7 @@ function check(n){
         var flag=0;
         for(let i=0;i<q.length;i++){
             if(q[i].checked){
-                if (q[i].value=="DR"){
+                if (q[i].value=="dennis ritchie"){
                     flag=1;
                     s1.textContent="Status:Correct";
                     s1.style.display='block';
@@ -54,56 +54,85 @@ function check(n){
         display(n);
     }
     else if(n==2){
-        var q=document.getElementById("input2");
+        const q=document.getElementsByName('input2');
         var s2=document.getElementById("status2");
-        if(q.value=="Y"){
-            s2.textContent="Status:Correct";
-            s2.style.display='block';
-            num++;
+        var flag=0;
+        for(let i=0;i<q.length;i++){
+            if(q[i].checked){
+                if (q[i].value=="yes ofc duh"){
+                    flag=1;
+                    s2.textContent="Status:Correct";
+                    s2.style.display='block';
+                    num++;
+                    break;
+                }
+            }
         }
-        else{
+        if(flag==0){
             s2.textContent="Status:Incorrect";
             s2.style.display='block';
         }
         display(n);
     }
     else if(n==3){
-        var q=document.getElementById("input3");
+        var q=document.getElementsByName('input3');
         var s3=document.getElementById("status3");
-        if(q.value=="lambo"){
-            s3.textContent="Status:Correct";
-            s3.style.display='block';
-            num++;
+        var flag=0;
+        for(let i=0;i<q.length;i++){
+            if(q[i].checked){
+                if (q[i].value=="alto"){
+                    flag=1;
+                    s3.textContent="Status:Correct";
+                    s3.style.display='block';
+                    num++;
+                    break;
+                }
+            }
         }
-        else{
+        if(flag==0){
             s3.textContent="Status:Incorrect";
             s3.style.display='block';
         }
         display(n);
     }
     else if(n==4){
-        var q=document.getElementById("input4");
+        var q=document.getElementsByName('input4');
         var s4=document.getElementById("status4");
-        if(q.value=="cosx"){
-            s4.textContent="Status:Correct";
-            s4.style.display='block';
-            num++;
+        var flag=0;
+        for(let i=0;i<q.length;i++){
+            if(q[i].checked){
+                if (q[i].value=="cosx"){
+                    flag=1;
+                    s4.textContent="Status:Correct";
+                    s4.style.display='block';
+                    num++;
+                    break;
+                }
+            }
         }
-        else{
+        if(flag==0){
             s4.textContent="Status:Incorrect";
             s4.style.display='block';
         }
         display(n);
+        
     }
     else if(n==5){
-        var q=document.getElementById("input5");
+        var q=document.getElementsByName('input5');
         var s5=document.getElementById("status5");
-        if(q.value=="tiet"){
-            s5.textContent="Status:Correct";
-            s5.style.display='block';
-            num++;
+        var flag=0;
+        for(let i=0;i<q.length;i++){
+            if(q[i].checked){
+                if (q[i].value=="Thapar"){
+                    flag=1;
+                    s5.textContent="Status:Correct";
+                    s5.style.display='block';
+                    num++;
+                    break;
+                }
+            }
         }
-        else{
+        if(flag==0){
             s5.textContent="Status:Incorrect";
             s5.style.display='block';
         }
